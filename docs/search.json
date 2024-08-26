@@ -25,7 +25,7 @@
     "href": "cfp.html#abstract-submission-information",
     "title": "Call for papers",
     "section": "Abstract Submission Information",
-    "text": "Abstract Submission Information\nWe welcome your contributions to the special session. And, as always, we invite abstracts related to language processing more generally. Abstracts may be submitted for posters or for 20-minute podium presentations.\nAbstracts are due on Monday, December 2, 2024 by 11:59:59pm (anywhere on earth).\nDr. Maayan Keshev has put together a document of tips for how to write a HSP abstract.\nAbstract specifications and more details can be found below.\nFor more information, please contact &lt;code&gt;hsp2025@umd.edu&lt;/code&gt; (hsp2025 at umd dot edu).\nWe are looking forward to seeing you May 16-18, 2024 in Ann Arbor!\nThe HSP 2024 Organizing Committee"
+    "text": "Abstract Submission Information\nWe welcome your contributions to the special session. And, as always, we invite abstracts related to language processing more generally. Abstracts may be submitted for posters or for 20-minute podium presentations.\n\nAbstracts are due on XXXX (anywhere on earth).\nDr. Maayan Keshev has put together a document of tips for how to write a HSP abstract.\nAbstract specifications and more details can be found below.\nFor more information, please contact [hsp-2025@umd.edu].\nWe are looking forward to seeing you May 16-18, 2024 in Ann Arbor!\nThe HSP 2024 Organizing Committee"
   },
   {
     "objectID": "cfp.html#abstract-specifications",
@@ -40,6 +40,13 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "info.html",
+    "href": "info.html",
+    "title": "Schedule and Program",
+    "section": "",
+    "text": "Coming soon!"
   },
   {
     "objectID": "posts/2024-08-first/index.html",
@@ -123,6 +130,13 @@
     "href": "program.html#invited-speakers",
     "title": "Schedule and Program",
     "section": "Invited Speakers",
-    "text": "Invited Speakers\nWe are delighted to welcome the following six invited speakers (in alphabetical order)\n\nDr. Andrew Begel, Carnegie Mellon University\nDr. Rain Bosworth, Rochester Institute of Technology\nDr. Stefanie Kuchinsky, Walter Reed National Military Medical Center\nDr. Philip Resnik, University of Maryland, College Park\nDr. Charlotte Vaughn, University of Maryland, College Park\nTBD\n\nHSP 2025 will be an in-person conference."
+    "text": "Invited Speakers\nWe are delighted to welcome the following six invited speakers (in alphabetical order)\nTBD\n\nHSP 2025 will be an in-person conference."
+  },
+  {
+    "objectID": "reg.html",
+    "href": "reg.html",
+    "title": "Schedule and Program",
+    "section": "",
+    "text": "Coming soon!"
   }
 ]
