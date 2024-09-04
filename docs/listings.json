@@ -2,13 +2,17 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/2024-08-first/index.html"
+      "/posts/2024-09-travel/index.html",
+      "/posts/2024-09-social/index.html",
+      "/posts/2024-09-food/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/2024-08-first/index.html"
+      "/posts/2024-09-food/index.html",
+      "/posts/2024-09-social/index.html",
+      "/posts/2024-09-travel/index.html"
     ]
   }
 ]
