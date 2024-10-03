@@ -12,9 +12,51 @@
 <generator>quarto-1.5.55</generator>
 <lastBuildDate>Wed, 04 Sep 2024 04:00:00 GMT</lastBuildDate>
 <item>
+  <title>Social Events</title>
+  <dc:creator>HSP Committee</dc:creator>
+  <link>https://hsp2025.github.io/posts/social/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="social-events" class="level3">
+<h3 class="anchored" data-anchor-id="social-events">Social Events</h3>
+<p><strong>Conference Reception Party:</strong> We will have a conference reception at the Planet Word Museum in Washington, DC. 925 13th St NW, Washington, DC 20005</p>
+<p>Details are coming soon!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://hsp2025.github.io/posts/social/</guid>
+  <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Food and Drink</title>
+  <dc:creator>HSP Committee</dc:creator>
+  <link>https://hsp2025.github.io/posts/food/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="food-and-drink" class="level3">
+
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://hsp2025.github.io/posts/food/</guid>
+  <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Travel and Accomodation</title>
   <dc:creator>HSP Committee</dc:creator>
-  <link>https://hsp2025.github.io/posts/2024-09-travel/</link>
+  <link>https://hsp2025.github.io/posts/travel/</link>
   <description><![CDATA[ 
 
 
@@ -102,49 +144,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>news</category>
-  <guid>https://hsp2025.github.io/posts/2024-09-travel/</guid>
-  <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Social Events</title>
-  <dc:creator>HSP Committee</dc:creator>
-  <link>https://hsp2025.github.io/posts/2024-09-social/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="social-events" class="level3">
-<h3 class="anchored" data-anchor-id="social-events">Social Events</h3>
-<p><strong>Conference Reception Party:</strong> We will have a conference reception at the Planet Word Museum in Washington, DC. 925 13th St NW, Washington, DC 20005</p>
-<p>Details are coming soon!</p>
-
-
-</section>
-
- ]]></description>
-  <category>news</category>
-  <guid>https://hsp2025.github.io/posts/2024-09-social/</guid>
-  <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Food and Drink</title>
-  <dc:creator>HSP Committee</dc:creator>
-  <link>https://hsp2025.github.io/posts/2024-09-food/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="food-and-drink" class="level3">
-
-
-
-</section>
-
- ]]></description>
-  <category>news</category>
-  <guid>https://hsp2025.github.io/posts/2024-09-food/</guid>
+  <guid>https://hsp2025.github.io/posts/travel/</guid>
   <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
 </item>
 </channel>
