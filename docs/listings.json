@@ -2,6 +2,9 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/info/index.html",
+      "/posts/support/index.html",
+      "/posts/venue/index.html",
       "/posts/social/index.html",
       "/posts/food/index.html",
       "/posts/travel/index.html"
@@ -10,6 +13,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/info/index.html",
+      "/posts/support/index.html",
+      "/posts/venue/index.html",
       "/posts/food/index.html",
       "/posts/social/index.html",
       "/posts/travel/index.html"
