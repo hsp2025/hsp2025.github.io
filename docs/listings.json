@@ -2,6 +2,8 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/special-session/index.html",
+      "/posts/cfp/index.html",
       "/posts/info/index.html",
       "/posts/support/index.html",
       "/posts/venue/index.html",
@@ -13,6 +15,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/cfp/index.html",
+      "/posts/special-session/index.html",
       "/posts/info/index.html",
       "/posts/support/index.html",
       "/posts/venue/index.html",
