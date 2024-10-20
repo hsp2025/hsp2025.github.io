@@ -2,7 +2,9 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/demo/index.html",
       "/posts/special-session/index.html",
+      "/posts/code/index.html",
       "/posts/cfp/index.html",
       "/posts/support/index.html",
       "/posts/venue/index.html",
@@ -14,13 +16,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/cfp/index.html",
-      "/posts/special-session/index.html",
       "/posts/support/index.html",
-      "/posts/venue/index.html",
       "/posts/food/index.html",
-      "/posts/social/index.html",
-      "/posts/travel/index.html"
+      "/posts/social/index.html"
     ]
   }
 ]

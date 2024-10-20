@@ -8,7 +8,7 @@
 <title>HSP 2025</title>
 <link>https://hsp2025.github.io/posts.html</link>
 <atom:link href="https://hsp2025.github.io/posts.xml" rel="self" type="application/rss+xml"/>
-<description>HSP is the greatest conference in the world.</description>
+<description>UMD HSP 2025</description>
 <image>
 <url>https://hsp2025.github.io/files/logos/icon.png</url>
 <title>HSP 2025</title>
@@ -16,6 +16,33 @@
 </image>
 <generator>quarto-1.5.55</generator>
 <lastBuildDate>Wed, 09 Oct 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>HSP 2025 Special Session ‘Demo’ Period</title>
+  <dc:creator>HSP Committee</dc:creator>
+  <link>https://hsp2025.github.io/posts/demo/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are excited to introduce a new feature at the Annual Conference on Human Sentence Processing (HSP), as part of our NSF-funded special session, ’‘<strong>Connecting Minds, Building Bridges: Community Outreach in Language Processing Research</strong>.’’ For the first time, we will host a ‘’Demo’’’ period, providing space for hands-on outreach demonstrations that go beyond traditional posters or talks. This is an opportunity to showcase work that can only be fully appreciated through direct experience—such as sounds, multimedia presentations, interactive activities for children, and more.</p>
+<p>While the session will focus on live demonstrations, abstracts are required to evaluate and understand the content of these presentations. These abstracts should serve as descriptions of your planned activities and may differ in structure from those typically submitted for traditional poster sessions. We invite abstracts that showcase community-engagement activities in psycholinguistics. These demos should highlight outreach projects that researchers are involved in, featuring the stakeholders you work with—whether they be schools, community organizations, or broader public groups. Presenting real-world examples of successful outreach will illustrate how psycholinguistic research can directly benefit communities and foster meaningful collaboration.</p>
+<p>In addition to showcasing ongoing efforts, we also encourage abstracts that propose new community engagement initiatives. These proposals can outline your planned activities, highlighting how you aim to involve key stakeholders and promote greater interaction between the scientific community and the public.</p>
+<p>We encourage abstracts that highlight creative outreach initiatives, interactive demonstrations, and alternative ways of presenting research aligned with the theme of community engagement. Abstracts should include a brief description of the demo, its objectives, and how it connects to the special session theme.</p>
+<p>Although we are primarily encouraging demos that highlight creative outreach initiatives and community engagement activities, we also welcome submissions that present innovative experimental methods or approaches. If you have a demonstration that is best understood through direct experience, such as a new experimental technique, this demo period could be an excellent opportunity to share it with the community.</p>
+<p>Presenters of the demos will have approximately 1 hour and 20 minutes for their presentations, which may overlap with a poster session to maximize audience engagement.</p>
+<p>Since this is a new feature, please include any logistical needs (e.g., table, electricity, poster board, etc.) to ensure the space is prepared for your demonstration. All demo abstracts should adhere to the same formatting requirements as traditional abstracts for talks and posters.</p>
+<p>This demo period provides a unique opportunity for researchers to showcase how their work connects with broader societal needs. By sharing innovative and interactive outreach efforts, participants can highlight the practical, real-world relevance of psycholinguistic research. These demonstrations will help other researchers recognize the potential for their own work to reach and engage the public, fostering stronger connections between the scientific community and the communities we aim to serve.</p>
+<p>We look forward to your submissions and the exciting potential these demos have to inspire and engage.</p>
+
+
+
+ ]]></description>
+  <category>demo</category>
+  <category>cfp</category>
+  <guid>https://hsp2025.github.io/posts/demo/</guid>
+  <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Special Session Information</title>
   <dc:creator>HSP Committee</dc:creator>
@@ -34,13 +61,99 @@
 <li>How can we collaborate with community organizations such as schools, healthcare practices, museums, advocacy groups, and policy makers?</li>
 <li>How can we overcome barriers and challenges associated with this research model, such as establishing public partnerships, aligning research goals with societal interests, and improving public communication?</li>
 </ul>
+<p>For the first time, we will host a ‘’Demo’’’ period, providing space for hands-on outreach demonstrations that go beyond traditional posters or talks. This is an opportunity to showcase work that can only be fully appreciated through direct experience—such as sounds, multimedia presentations, interactive activities for children, and more. This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. Check out our special session <a href="../demo/index.html">“Demo”</a> for more information.</p>
 
 
 </section>
 
  ]]></description>
-  <category>news</category>
+  <category>special session</category>
+  <category>bridges</category>
+  <category>community outreach</category>
   <guid>https://hsp2025.github.io/posts/special-session/</guid>
+  <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Code of Conduct</title>
+  <dc:creator>HSP Committee</dc:creator>
+  <link>https://hsp2025.github.io/posts/code/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>HSP 2025 is committed to providing a safe, harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, age, religion, language use, ethnicity, or nationality. We do not tolerate harassment of any kind. Participants violating these rules may be sanctioned or expelled at the discretion of the conference organizers.</p>
+<p><strong>Harassment includes, but is not limited to:</strong></p>
+<ul>
+<li>Verbal comments that reinforce social hierarchies based on gender, sexual orientation, disability, appearance, race, age, religion, or nationality</li>
+<li>Displaying sexual images in public spaces</li>
+<li>Deliberate intimidation, stalking, or following</li>
+<li>Behaviors aimed at making individuals or groups feel unwelcome, or encouraging ostracism</li>
+<li>Harassing photography or recording</li>
+<li>Disruption of talks or other events</li>
+<li>Inappropriate physical contact</li>
+<li>Unwanted sexual attention</li>
+<li>Advocating for or encouraging any of the above behaviors</li>
+</ul>
+<p>These behaviors are unacceptable during both in-person interactions and in online spaces (e.g., event-related chats or social media).</p>
+<section id="enforcement" class="level2">
+<h2 class="anchored" data-anchor-id="enforcement">Enforcement</h2>
+<p>Participants who are asked to stop harassing behavior must comply immediately. Event organizers may take any action necessary to maintain a welcoming environment, including issuing warnings, expelling offenders, barring future participation, reporting incidents to the offender’s institution or funding agencies, or contacting law enforcement.</p>
+<p>Organizers may take action against any behavior that disrupts the event or creates a hostile environment.</p>
+<p>We expect participants to follow these rules at all event venues (including online platforms like Zoom) and during social activities. While these rules apply to event-related activities, we encourage participants to uphold these standards outside of event activities as well.</p>
+</section>
+<section id="reporting" class="level2">
+<h2 class="anchored" data-anchor-id="reporting">Reporting</h2>
+<p>If you or anyone else feels unsafe or unwelcome, please report the incident to conference staff immediately. Violations of the Code of Conduct detract from the experience for everyone, and we want to ensure a positive, inclusive environment. You can report an incident by contacting any of the following conference staff:</p>
+<ul>
+<li>Jared Novick: <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#100;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#106;&#110;&#x6f;&#118;&#x69;&#x63;&#x6b;&#x31;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>jnovick1 at umd dot edu</noscript></li>
+<li>Yi Ting Huang: <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#100;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x79;&#116;&#104;&#x75;&#x61;&#110;&#x67;&#x31;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>ythuang1 at umd dot edu</noscript></li>
+<li>Rochelle Newman: <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#100;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#114;&#110;&#x65;&#x77;&#x6d;&#x61;&#110;&#x31;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>rnewman1 at umd dot edu</noscript></li>
+<li>Bob Slevc: <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#100;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x73;&#108;&#x65;&#118;&#x63;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>slevc at umd dot edu</noscript></li>
+<li>All Conference Organizers: <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#100;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#104;&#x73;&#112;&#x2d;&#50;&#48;&#50;&#x35;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>hsp-2025 at umd dot edu</noscript></li>
+</ul>
+<p>Please note that emails sent to University of Maryland addresses are public records under Maryland’s Public Information Act (PIA). For private reporting, you may also use this personal email address:</p>
+<ul>
+<li>Jared Novick: <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#106;&#x61;&#114;&#x65;&#100;&#46;&#110;&#x6f;&#118;&#x69;&#x63;&#x6b;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>jared.novick at gmail dot com</noscript></li>
+</ul>
+<p><em>Adapted from the HSP 2024 Code of Conduct</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>code of conduct</category>
+  <guid>https://hsp2025.github.io/posts/code/</guid>
   <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
@@ -52,9 +165,13 @@
 
 
 
+<p>We invite submissions for the Annual Conference on Human Sentence Processing. In addition to soliciting abstracts for traditional podium talks and posters, we are excited to announce a new opportunity for researchers to participate in our interactive demo period.</p>
+<p>This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. Check out our special session <a href="../demo/index.html">“Demo”</a> for more information.</p>
+<p>For detailed instructions on how to submit your abstracts for both traditional presentations and the new demo period, please refer to the submission guidelines.</p>
+<p>We look forward to your contributions and to making this conference an engaging and impactful experience for all attendees!</p>
 <section id="submission-portal" class="level2">
 <h2 class="anchored" data-anchor-id="submission-portal">Submission Portal</h2>
-<p>Abstracts should be submitted via Oxford Abstracts [Link TBA].</p>
+<p>Abstracts should be submitted via <a href="https://app.oxfordabstracts.com/stages/76458/submitter">Oxford Abstracts</a>.</p>
 </section>
 <section id="abstract-submission-information" class="level2">
 <h2 class="anchored" data-anchor-id="abstract-submission-information">Abstract Submission Information</h2>
@@ -96,7 +213,8 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 
  ]]></description>
-  <category>news</category>
+  <category>call for papers</category>
+  <category>cfp</category>
   <guid>https://hsp2025.github.io/posts/cfp/</guid>
   <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
   <media:content url="https://hsp2025.github.io/posts/cfp/cfp.png" medium="image" type="image/png" height="90" width="144"/>
@@ -133,6 +251,8 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>news</category>
+  <category>support</category>
+  <category>travel</category>
   <guid>https://hsp2025.github.io/posts/support/</guid>
   <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
 </item>
@@ -175,7 +295,9 @@ https://quarto.org/docs/authoring/includes.html
 
 
  ]]></description>
-  <category>news</category>
+  <category>venue</category>
+  <category>travel</category>
+  <category>attending</category>
   <guid>https://hsp2025.github.io/posts/venue/</guid>
   <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
 </item>
@@ -210,6 +332,10 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>news</category>
+  <category>social</category>
+  <category>party</category>
+  <category>reception</category>
+  <category>attending</category>
   <guid>https://hsp2025.github.io/posts/social/</guid>
   <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
 </item>
@@ -279,6 +405,9 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>news</category>
+  <category>food</category>
+  <category>college park</category>
+  <category>attending</category>
   <guid>https://hsp2025.github.io/posts/food/</guid>
   <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
 </item>
@@ -374,7 +503,8 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 
  ]]></description>
-  <category>news</category>
+  <category>travel</category>
+  <category>attending</category>
   <guid>https://hsp2025.github.io/posts/travel/</guid>
   <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
 </item>
