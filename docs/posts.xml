@@ -61,7 +61,7 @@
 <li>How can we collaborate with community organizations such as schools, healthcare practices, museums, advocacy groups, and policy makers?</li>
 <li>How can we overcome barriers and challenges associated with this research model, such as establishing public partnerships, aligning research goals with societal interests, and improving public communication?</li>
 </ul>
-<p>For the first time, we will host a ‘’Demo’’’ period, providing space for hands-on outreach demonstrations that go beyond traditional posters or talks. This is an opportunity to showcase work that can only be fully appreciated through direct experience—such as sounds, multimedia presentations, interactive activities for children, and more. This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. Check out our special session <a href="../demo/index.html">“Demo”</a> for more information.</p>
+<p>For the first time, we will host a ‘’Demo’’’ period, providing space for hands-on outreach demonstrations that go beyond traditional posters or talks. This is an opportunity to showcase work that can only be fully appreciated through direct experience—such as sounds, multimedia presentations, interactive activities for children, and more. This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. View detailed abstract submission instructions for our special session (‘’Demo period’’)[../demo/index.html].</p>
 
 
 </section>
@@ -166,7 +166,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 
 
 <p>We invite submissions for the Annual Conference on Human Sentence Processing. In addition to soliciting abstracts for traditional podium talks and posters, we are excited to announce a new opportunity for researchers to participate in our interactive demo period.</p>
-<p>This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. Check out our special session <a href="../demo/index.html">“Demo”</a> for more information.</p>
+<p>This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. View detailed abstract submission instructions for our special session (‘’Demo period’’)[../demo/index.html].</p>
 <p>For detailed instructions on how to submit your abstracts for both traditional presentations and the new demo period, please refer to the submission guidelines.</p>
 <p>We look forward to your contributions and to making this conference an engaging and impactful experience for all attendees!</p>
 <section id="submission-portal" class="level2">
@@ -175,7 +175,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 </section>
 <section id="abstract-submission-information" class="level2">
 <h2 class="anchored" data-anchor-id="abstract-submission-information">Abstract Submission Information</h2>
-<p>We welcome your contributions to the special session. And, as always, we invite abstracts related to language processing more generally. Abstracts may be submitted for posters or for 20-minute podium presentations.</p>
+<p>We welcome your contributions to the special session. And, as always, we invite abstracts related to language processing more generally. Abstracts may be submitted for the interactive demo session, posters, or for 20-minute podium presentations.</p>
 <p>Abstracts are due on <strong>Monday, December 2, 2024 by 11:59:59pm</strong> (anywhere on earth).</p>
 <!-- Abstracts are due on XXXX (anywhere on earth). -->
 <p>Dr.&nbsp;Maayan Keshev has put together a <a href="https://docs.google.com/document/d/1J_amu8bT3tIcPGh_zY_M8nLq3FSRK8KNa2pZKlc0rfs/">document of tips</a> for how to write a HSP abstract.</p>
@@ -231,7 +231,7 @@ https://quarto.org/docs/authoring/includes.html
 <p><img src="https://hsp2025.github.io/posts/support/hall.jpeg" class="preview-image img-fluid"></p>
 <section id="travel-support" class="level3">
 <h3 class="anchored" data-anchor-id="travel-support">Travel Support</h3>
-<p><strong>Equity and Access Award:</strong> Undergraduate and Graduate Students: We will subsidize the cost of attendance by covering the registration fees for approximately 55 undergraduate and graduate students, including those in UMD’s REACH Program, students from local HBCUs, MSIs, and Gallaudet University, at a rate of $150 per participant.</p>
+<p><strong>Equity and Access Travel Support:</strong> Undergraduate and Graduate Students: We will subsidize the cost of attendance by covering the registration fees for approximately 55 undergraduate and graduate students, including those in UMD’s REACH Program, students from local HBCUs, MSIs, and Gallaudet University, at a rate of $150 per participant.</p>
 <p><strong>Equity and Access Travel Supplement:</strong> We will provide travel supplements of $50 each to 40 students who receive the Equity and Access Award, specifically to assist with travel costs for those coming from local HBCUs, MSIs, and Gallaudet University located outside the immediate area.</p>
 <p><strong>Graduate Student Travel Support:</strong> We will provide approximately 30 graduate student travel support at $375 per participant to defray the cost of travel to the conference.</p>
 <!--Include social share buttons-->
