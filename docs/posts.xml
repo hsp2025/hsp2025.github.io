@@ -229,11 +229,29 @@ https://quarto.org/docs/authoring/includes.html
 
 
 <p><img src="https://hsp2025.github.io/posts/support/hall.jpeg" class="preview-image img-fluid"></p>
-<section id="travel-support" class="level3">
-<h3 class="anchored" data-anchor-id="travel-support">Travel Support</h3>
-<p><strong>Equity and Access Travel Support:</strong> Undergraduate and Graduate Students: We will subsidize the cost of attendance by covering the registration fees for approximately 55 undergraduate and graduate students, including those in UMD’s REACH Program, students from local HBCUs, MSIs, and Gallaudet University, at a rate of $150 per participant.</p>
-<p><strong>Equity and Access Travel Supplement:</strong> We will provide travel supplements of $50 each to 40 students who receive the Equity and Access Award, specifically to assist with travel costs for those coming from local HBCUs, MSIs, and Gallaudet University located outside the immediate area.</p>
-<p><strong>Graduate Student Travel Support:</strong> We will provide approximately 30 graduate student travel support at $375 per participant to defray the cost of travel to the conference.</p>
+<section id="equity-and-access-support" class="level2">
+<h2 class="anchored" data-anchor-id="equity-and-access-support">Equity and Access Support</h2>
+<section id="registration-supplement" class="level4">
+<h4 class="anchored" data-anchor-id="registration-supplement">Registration Supplement</h4>
+<p>We will subsidize the cost of attendance by covering the registration fees for approximately 55 undergraduate and graduate students, including those in UMD’s REACH Program, students from local HBCUs, MSIs, and Gallaudet University, at a rate of $150 per participant.</p>
+</section>
+<section id="travel-supplement" class="level4">
+<h4 class="anchored" data-anchor-id="travel-supplement">Travel Supplement</h4>
+<p>We will provide travel supplements of $50 each to 40 students who receive the Equity and Access Award, specifically to assist with travel costs for those coming from local HBCUs, MSIs, and Gallaudet University located outside the immediate area.</p>
+</section>
+</section>
+<section id="graduate-student-travel-support" class="level2">
+<h2 class="anchored" data-anchor-id="graduate-student-travel-support">Graduate Student Travel Support</h2>
+<p>We will provide approximately 30 graduate student travel support at $375 per participant to defray the cost of travel to the conference.</p>
+</section>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>Questions about funding? Contact the HSP Committee at <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#100;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#104;&#x73;&#112;&#x2d;&#50;&#48;&#50;&#x35;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>hsp-2025 at umd dot edu</noscript> or join our <a href="https://discord.gg/enycJAMz7q">Discord server</a>.</p>
 <!--Include social share buttons-->
 <!--
 AddToAny check more: https://www.addtoany.com/buttons/for/website
