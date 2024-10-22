@@ -16,9 +16,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/support/index.html",
-      "/posts/food/index.html",
-      "/posts/social/index.html"
+      "/posts/cfp/index.html",
+      "/posts/demo/index.html",
+      "/posts/venue/index.html"
     ]
   }
 ]

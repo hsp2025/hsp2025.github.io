@@ -38,6 +38,7 @@
 
 
  ]]></description>
+  <category>frontpage</category>
   <category>demo</category>
   <category>cfp</category>
   <guid>https://hsp2025.github.io/posts/demo/</guid>
@@ -213,6 +214,7 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 
  ]]></description>
+  <category>frontpage</category>
   <category>call for papers</category>
   <category>cfp</category>
   <guid>https://hsp2025.github.io/posts/cfp/</guid>
@@ -269,7 +271,6 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 
  ]]></description>
-  <category>news</category>
   <category>support</category>
   <category>travel</category>
   <guid>https://hsp2025.github.io/posts/support/</guid>
@@ -314,6 +315,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
  ]]></description>
+  <category>frontpage</category>
   <category>venue</category>
   <category>travel</category>
   <category>attending</category>
