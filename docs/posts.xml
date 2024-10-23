@@ -41,7 +41,7 @@
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>frontpage</category>
   <category>demo</category>
-  <category>cfa</category>
+  <category>cfp</category>
   <guid>https://hsp2025.github.io/posts/demo/</guid>
   <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
 </item>
@@ -155,7 +155,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 <item>
   <title>Call for Abstracts!</title>
   <dc:creator>HSP Committee</dc:creator>
-  <link>https://hsp2025.github.io/posts/cfa/</link>
+  <link>https://hsp2025.github.io/posts/cfp/</link>
   <description><![CDATA[ 
 
 
@@ -208,10 +208,10 @@ https://quarto.org/docs/authoring/includes.html
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>frontpage</category>
   <category>call for abstracts</category>
-  <category>cfa</category>
-  <guid>https://hsp2025.github.io/posts/cfa/</guid>
+  <category>cfp</category>
+  <guid>https://hsp2025.github.io/posts/cfp/</guid>
   <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://hsp2025.github.io/posts/cfa/oa.png" medium="image" type="image/png" height="67" width="144"/>
+  <media:content url="https://hsp2025.github.io/posts/cfp/oa.png" medium="image" type="image/png" height="67" width="144"/>
 </item>
 <item>
   <title>Travel Support</title>
