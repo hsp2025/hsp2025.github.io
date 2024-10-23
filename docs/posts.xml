@@ -5,13 +5,13 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>HSP 2025</title>
+<title>HSP2025</title>
 <link>https://hsp2025.github.io/posts.html</link>
 <atom:link href="https://hsp2025.github.io/posts.xml" rel="self" type="application/rss+xml"/>
-<description>UMD HSP 2025</description>
+<description>38th Annual Conference on Human Sentence Processing</description>
 <image>
 <url>https://hsp2025.github.io/files/logos/icon.png</url>
-<title>HSP 2025</title>
+<title>HSP2025</title>
 <link>https://hsp2025.github.io/posts.html</link>
 </image>
 <generator>quarto-1.5.55</generator>
@@ -25,7 +25,7 @@
 
 
 
-<p><img src="https://hsp2025.github.io/posts/demo/bridge.jpeg" class="preview-image img-fluid"></p>
+<p><img src="https://hsp2025.github.io/posts/demo/MarylandDay_child.jpg" class="preview-image img-fluid"></p>
 <p>We are excited to introduce a new feature at the Annual Conference on Human Sentence Processing (HSP), as part of our NSF-funded special session, ’‘<strong>Connecting Minds, Building Bridges: Community Outreach in Language Processing Research</strong>.’’ For the first time, we will host a ‘’Demo’’’ period, providing space for hands-on outreach demonstrations that go beyond traditional posters or talks. This is an opportunity to showcase work that can only be fully appreciated through direct experience—such as sounds, multimedia presentations, interactive activities for children, and more.</p>
 <p>While the session will focus on live demonstrations, abstracts are required to evaluate and understand the content of these presentations. These abstracts should serve as descriptions of your planned activities and may differ in structure from those typically submitted for traditional poster sessions. We invite abstracts that showcase community-engagement activities in psycholinguistics. These demos should highlight outreach projects that researchers are involved in, featuring the stakeholders you work with—whether they be schools, community organizations, or broader public groups. Presenting real-world examples of successful outreach will illustrate how psycholinguistic research can directly benefit communities and foster meaningful collaboration.</p>
 <p>In addition to showcasing ongoing efforts, we also encourage abstracts that propose new community engagement initiatives. These proposals can outline your planned activities, highlighting how you aim to involve key stakeholders and promote greater interaction between the scientific community and the public.</p>
@@ -38,7 +38,7 @@
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>frontpage</category>
   <category>demo</category>
   <category>cfp</category>
@@ -52,10 +52,8 @@
   <description><![CDATA[ 
 
 
-
-
-<section id="connecting-minds-building-bridges-community-outreach-in-language-processing-research" class="level2">
-<h2 class="anchored" data-anchor-id="connecting-minds-building-bridges-community-outreach-in-language-processing-research">Connecting Minds, Building Bridges: Community Outreach in Language Processing Research</h2>
+<section id="connecting-minds-building-bridges-community-outreach-in-language-processing-research" class="level3">
+<h3 class="anchored" data-anchor-id="connecting-minds-building-bridges-community-outreach-in-language-processing-research">Connecting Minds, Building Bridges: Community Outreach in Language Processing Research</h3>
 <p>This year’s special session focuses on enhancing psycholinguists’ ability to appreciate the link between their scientific interests and the needs of the wider community.</p>
 <ul>
 <li>How does our work benefit society?</li>
@@ -63,12 +61,11 @@
 <li>How can we collaborate with community organizations such as schools, healthcare practices, museums, advocacy groups, and policy makers?</li>
 <li>How can we overcome barriers and challenges associated with this research model, such as establishing public partnerships, aligning research goals with societal interests, and improving public communication?</li>
 </ul>
-<p>For the first time, we will host a ‘’Demo’’’ period, providing space for hands-on outreach demonstrations that go beyond traditional posters or talks. This is an opportunity to showcase work that can only be fully appreciated through direct experience—such as sounds, multimedia presentations, interactive activities for children, and more. This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. View detailed abstract submission instructions for our special session <a href="../demo/index.html">‘’Demo period’’</a>..</p>
+<p>For the first time, we will host a ‘’Demo’’’ period, providing space for hands-on outreach demonstrations that go beyond traditional posters or talks. This is an opportunity to showcase work that can only be fully appreciated through direct experience—such as sounds, multimedia presentations, interactive activities for children, and more. This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. View detailed abstract submission instructions for our special session <a href="../demo/index.html">‘’Demo period’’</a>.</p>
 
 
 </section>
-
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>special session</category>
   <category>bridges</category>
   <category>community outreach</category>
@@ -80,8 +77,6 @@
   <dc:creator>HSP Committee</dc:creator>
   <link>https://hsp2025.github.io/posts/code/</link>
   <description><![CDATA[ 
-
-
 
 
 <p>HSP 2025 is committed to providing a safe, harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, age, religion, language use, ethnicity, or nationality. We do not tolerate harassment of any kind. Participants violating these rules may be sanctioned or expelled at the discretion of the conference organizers.</p>
@@ -152,8 +147,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 
 
 </section>
-
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>code of conduct</category>
   <guid>https://hsp2025.github.io/posts/code/</guid>
   <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
@@ -163,8 +157,6 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
   <dc:creator>HSP Committee</dc:creator>
   <link>https://hsp2025.github.io/posts/cfp/</link>
   <description><![CDATA[ 
-
-
 
 
 <p>We invite submissions for the Annual Conference on Human Sentence Processing. In addition to soliciting abstracts for traditional podium talks and posters, we are excited to announce a new opportunity for researchers to participate in our interactive demo period.</p>
@@ -213,8 +205,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
 </section>
-
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>frontpage</category>
   <category>call for papers</category>
   <category>cfp</category>
@@ -225,13 +216,11 @@ https://quarto.org/docs/authoring/includes.html
 <item>
   <title>Travel Support</title>
   <dc:creator>HSP Committee</dc:creator>
-  <link>https://hsp2025.github.io/posts/support/</link>
+  <link>https://hsp2025.github.io/posts/travel-support/</link>
   <description><![CDATA[ 
 
 
-
-
-<p><img src="https://hsp2025.github.io/posts/support/hall.jpeg" class="preview-image img-fluid"></p>
+<p><img src="https://hsp2025.github.io/posts/travel-support/hall.jpeg" class="preview-image img-fluid"></p>
 <p>Applications for travel support are coming soon. Stay tuned for more information on how to apply for travel support to attend the conference by subscribing to <a href="https://listserv.uconn.edu/scripts/wa.exe?SUBED1=HSP-L&amp;A=1">HSP Listserv</a> or joining our <a href="https://discord.gg/zbEeF6Dzkj">Discord server</a>.</p>
 <section id="equity-and-access-support" class="level2">
 <h2 class="anchored" data-anchor-id="equity-and-access-support">Equity and Access Support</h2>
@@ -270,11 +259,10 @@ https://quarto.org/docs/authoring/includes.html
 
 
 </section>
-
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>support</category>
   <category>travel</category>
-  <guid>https://hsp2025.github.io/posts/support/</guid>
+  <guid>https://hsp2025.github.io/posts/travel-support/</guid>
   <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
@@ -283,9 +271,7 @@ https://quarto.org/docs/authoring/includes.html
   <link>https://hsp2025.github.io/posts/venue/</link>
   <description><![CDATA[ 
 
-
-
-
+<p>The University of Maryland is located just a few miles from Washington, DC, offering easy access to the nation’s capital via Metro or a short drive. This convenient location makes UMD an accessible and exciting destination for attendees, with opportunities to explore both our campus and the vibrant city nearby.</p>
 <p><img src="https://hsp2025.github.io/posts/venue/stamp.jpg" class="preview-image img-fluid"></p>
 <p>HSP 2025 will be held in the Adele H. Stamp Student Union building at the University of Maryland College Park.</p>
 <p><img src="https://hsp2025.github.io/posts/venue/venue.png" class="img-fluid"></p>
@@ -314,8 +300,7 @@ https://quarto.org/docs/authoring/includes.html
 <script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
-
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>frontpage</category>
   <category>venue</category>
   <category>travel</category>
@@ -328,8 +313,6 @@ https://quarto.org/docs/authoring/includes.html
   <dc:creator>HSP Committee</dc:creator>
   <link>https://hsp2025.github.io/posts/social/</link>
   <description><![CDATA[ 
-
-
 
 
 <p><img src="https://hsp2025.github.io/posts/social/planet.jpg" class="preview-image img-fluid"></p>
@@ -351,8 +334,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
 </section>
-
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>news</category>
   <category>social</category>
   <category>party</category>
@@ -368,19 +350,6 @@ https://quarto.org/docs/authoring/includes.html
   <description><![CDATA[ 
 
 
-
-
-<div class="columns">
-<div class="column" style="width:57%;">
-<section id="food-and-drink" class="level3">
-<h3 class="anchored" data-anchor-id="food-and-drink">Food and Drink</h3>
-</section>
-</div><div class="column" style="width:3%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:40%;">
-<p><img src="https://hsp2025.github.io/posts/food/foodmap.jpg" class="preview-image img-fluid"></p>
-</div>
-</div>
 <section id="college-park" class="level3">
 <h3 class="anchored" data-anchor-id="college-park">College Park</h3>
 <p><strong>The Board and Brew:</strong> College Park, short walk from UMD campus. Decent eats, great single origin coffees, evening brews, and the only place we know with a board game sommelier to advise you on a choice of games. Indoor and outdoor seating.</p>
@@ -424,8 +393,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
 </section>
-
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>news</category>
   <category>food</category>
   <category>college park</category>
@@ -440,8 +408,7 @@ https://quarto.org/docs/authoring/includes.html
   <description><![CDATA[ 
 
 
-
-
+<p>The University of Maryland is located just a few miles from Washington, DC, offering easy access to the nation’s capital via Metro or a short drive. This convenient location makes UMD an accessible and exciting destination for attendees, with opportunities to explore both our campus and the vibrant city nearby.</p>
 <p><img src="https://hsp2025.github.io/posts/travel/union.jpg" class="preview-image img-fluid"></p>
 <section id="travel-and-accomodation" class="level2">
 <h2 class="anchored" data-anchor-id="travel-and-accomodation">Travel and Accomodation</h2>
@@ -523,8 +490,7 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 </section>
 </section>
-
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>travel</category>
   <category>attending</category>
   <guid>https://hsp2025.github.io/posts/travel/</guid>
