@@ -153,9 +153,9 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
   <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Call for Papers!</title>
+  <title>Call for Abstracts!</title>
   <dc:creator>HSP Committee</dc:creator>
-  <link>https://hsp2025.github.io/posts/cfp/</link>
+  <link>https://hsp2025.github.io/posts/cfa/</link>
   <description><![CDATA[ 
 
 
@@ -209,9 +209,9 @@ https://quarto.org/docs/authoring/includes.html
   <category>frontpage</category>
   <category>call for papers</category>
   <category>cfp</category>
-  <guid>https://hsp2025.github.io/posts/cfp/</guid>
+  <guid>https://hsp2025.github.io/posts/cfa/</guid>
   <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://hsp2025.github.io/posts/cfp/oa.png" medium="image" type="image/png" height="67" width="144"/>
+  <media:content url="https://hsp2025.github.io/posts/cfa/oa.png" medium="image" type="image/png" height="67" width="144"/>
 </item>
 <item>
   <title>Travel Support</title>

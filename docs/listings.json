@@ -5,7 +5,7 @@
       "/posts/demo/index.html",
       "/posts/special-session/index.html",
       "/posts/code/index.html",
-      "/posts/cfp/index.html",
+      "/posts/cfa/index.html",
       "/posts/travel-support/index.html",
       "/posts/venue/index.html",
       "/posts/social/index.html",
@@ -16,7 +16,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/cfp/index.html",
+      "/posts/cfa/index.html",
       "/posts/demo/index.html",
       "/posts/venue/index.html"
     ]
