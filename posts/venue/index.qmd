@@ -1,0 +1,37 @@
+---
+title: "Venue"
+description: "UMD is located just a few miles from Washington, DC and Stamp Student Union is the perfect location for HSP 2025."
+author: "HSP Committee"
+date: "2024-10-04"
+template: "../../myhtml.template"
+categories: [frontpage, venue, travel, attending]
+# image: "union.jpg"
+---
+
+The University of Maryland is located just a few miles from Washington, DC, offering easy access to the nation's capital via Metro or a short drive. This convenient location makes UMD an accessible and exciting destination for attendees, with opportunities to explore both our campus and the vibrant city nearby. See below for more information on the venue and how to get here. See more details on how to get to UMD on our [travel page](../travel).
+
+
+![](stamp.jpg){.preview-image}
+
+HSP 2025 will be held in the Adele H. Stamp Student Union building at the University of Maryland College Park.
+
+![](venue.png)
+
+* Address: 3972 Campus Dr, College Park, MD 20742
+* Talks will be held in the Grand Ballroom
+* Coffee Breaks will be served in the Grand Ballroom Lounge
+* Poster sessions will take place in the Grand Ballroom
+
+![](ballroom.png)
+
+* Free wifi access is available through Eduroam or the [UMD Guest Network]
+* ASL interpreters will provide simultaneous translation services for all talks
+* Other important locations are marked on the map below (insert map with accessible entrances/lactation rooms/bathrooms etc)
+
+[UMD Guest Network]: https://itsupport.umd.edu/itsupport?id=kb_article_view&sysparm_article=KB0012824
+
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

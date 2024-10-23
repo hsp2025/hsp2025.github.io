@@ -1,0 +1,21 @@
+---
+title: "Special Session Information"
+description: "Connecting Minds, Building Bridges: Community Outreach in Language Processing Research"
+author: "HSP Committee"
+date: "2024-10-09"
+template: "../../myhtml.template"
+categories: [special session, bridges, community outreach]
+# image: "union.jpg"
+---
+
+### Connecting Minds, Building Bridges: Community Outreach in Language Processing Research
+
+This year’s special session focuses on enhancing psycholinguists’ ability to appreciate the link between their scientific interests and the needs of the wider community.
+
+* How does our work benefit society?
+* How does collaborating with community partners enable research that is informed by societal needs and yield impact outside the academy?
+* How can we collaborate with community organizations such as schools, healthcare practices, museums, advocacy groups, and policy makers?
+* How can we overcome barriers and challenges associated with this research model, such as establishing public partnerships, aligning research goals with societal interests, and improving public communication?
+
+
+For the first time, we will host a ''Demo''' period, providing space for hands-on outreach demonstrations that go beyond traditional posters or talks. This is an opportunity to showcase work that can only be fully appreciated through direct experience—such as sounds, multimedia presentations, interactive activities for children, and more. This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. View detailed abstract submission instructions for our special session [''Demo period''](../demo/index.html).

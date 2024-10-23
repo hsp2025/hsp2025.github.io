@@ -1,0 +1,38 @@
+---
+title: "Travel Support"
+description: "Applications for travel support are coming soon."
+author: "HSP Committee"
+template: "../../myhtml.template"
+date: "2024-10-04"
+categories: [support, travel]
+# image: "foodmap.jpg"
+---
+
+![](hall.jpeg){.preview-image}
+
+Applications for travel support are coming soon. Stay tuned for more information on how to apply for travel support to attend the conference by subscribing to [HSP Listserv](https://listserv.uconn.edu/scripts/wa.exe?SUBED1=HSP-L&A=1) or joining our [Discord server](https://discord.gg/zbEeF6Dzkj).
+
+## Equity and Access Support
+
+#### Registration Supplement
+
+We will subsidize the cost of attendance by covering the registration fees for approximately 55 undergraduate and graduate students, including those in UMD's REACH Program, students from local HBCUs, MSIs, and Gallaudet University, at a rate of $150 per participant.
+
+#### Travel Supplement
+
+We will provide travel supplements of $50 each to 40 students who receive the Equity and Access Award, specifically to assist with travel costs for those coming from local HBCUs, MSIs, and Gallaudet University located outside the immediate area.
+
+
+## Graduate Student Travel Support
+
+We will provide approximately 30 graduate student travel support at $375 per participant to defray the cost of travel to the conference.
+
+
+## Contact
+
+Questions about funding? Contact the HSP Committee at [hsp-2025@umd.edu](mailto:hsp-2025@umd.edu) or join our [Discord server](https://discord.gg/zbEeF6Dzkj).
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

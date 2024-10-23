@@ -1,0 +1,49 @@
+---
+title: "Code of Conduct"
+# description: "Abstracts are due on Monday, December 2!"
+author: "HSP Committee"
+date: "2024-10-09"
+categories: [code of conduct]
+template: "../../myhtml.template"
+# image: "cfp.png"
+---
+
+HSP 2025 is committed to providing a safe, harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, age, religion, language use, ethnicity, or nationality. We do not tolerate harassment of any kind. Participants violating these rules may be sanctioned or expelled at the discretion of the conference organizers.
+
+**Harassment includes, but is not limited to:**
+
+- Verbal comments that reinforce social hierarchies based on gender, sexual orientation, disability, appearance, race, age, religion, or nationality
+- Displaying sexual images in public spaces
+- Deliberate intimidation, stalking, or following
+- Behaviors aimed at making individuals or groups feel unwelcome, or encouraging ostracism
+- Harassing photography or recording
+- Disruption of talks or other events
+- Inappropriate physical contact
+- Unwanted sexual attention
+- Advocating for or encouraging any of the above behaviors
+
+These behaviors are unacceptable during both in-person interactions and in online spaces (e.g., event-related chats or social media).
+
+## Enforcement
+
+Participants who are asked to stop harassing behavior must comply immediately. Event organizers may take any action necessary to maintain a welcoming environment, including issuing warnings, expelling offenders, barring future participation, reporting incidents to the offender’s institution or funding agencies, or contacting law enforcement.
+
+Organizers may take action against any behavior that disrupts the event or creates a hostile environment.
+
+We expect participants to follow these rules at all event venues (including online platforms like Zoom) and during social activities. While these rules apply to event-related activities, we encourage participants to uphold these standards outside of event activities as well.
+
+## Reporting
+
+If you or anyone else feels unsafe or unwelcome, please report the incident to conference staff immediately. Violations of the Code of Conduct detract from the experience for everyone, and we want to ensure a positive, inclusive environment. You can report an incident by contacting any of the following conference staff:
+
+- Jared Novick: [jnovick1@umd.edu](mailto:jnovick1@umd.edu)
+- Yi Ting Huang: [ythuang1@umd.edu](mailto:ythuang1@umd.edu)
+- Rochelle Newman: [rnewman1@umd.edu](mailto:rnewman1@umd.edu)
+- Bob Slevc: [slevc@umd.edu](mailto:slevc@umd.edu)
+- All Conference Organizers: [hsp-2025@umd.edu](mailto:hsp-2025@umd.edu)
+
+Please note that emails sent to University of Maryland addresses are public records under Maryland’s Public Information Act (PIA). For private reporting, you may also use this personal email address:
+
+- Jared Novick: [jared.novick@gmail.com](mailto:jared.novick@gmail.com)
+
+*Adapted from the HSP 2024 Code of Conduct*

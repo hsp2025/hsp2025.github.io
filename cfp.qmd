@@ -1,0 +1,39 @@
+---
+title: "Call for papers"
+title-block-banner: false
+---
+
+
+## Submission Portal
+
+Abstracts should be submitted via Oxford Abstracts [Link TBA].
+
+## Abstract Submission Information
+
+We welcome your contributions to the special session. And, as always, we invite abstracts related to language processing more generally. Abstracts may be submitted for posters or for 20-minute podium presentations.
+
+Abstracts are due on **Monday, December 2, 2024 by 11:59:59pm** (anywhere on earth).
+
+<!-- Abstracts are due on XXXX (anywhere on earth). -->
+
+Dr. Maayan Keshev has put together a [document of tips] for how to write a HSP abstract.
+
+
+For more information, please contact [hsp-2025@umd.edu].
+
+We are looking forward to seeing you March 27-29, 2025 in College Park!
+
+## Abstract Specifications
+
+* Please upload a PDF version of your abstract.
+* Abstracts should be in letter format (8.5" x 11"), with 1-inch margins on all sides, and in Arial 11 point font.
+* The abstract itself (text) may be no longer than one page; a page containing additional figures, tables, other graphics and/or references may be included as well.
+* References should preferably be in APA format, but other formats are acceptable.
+* Abstracts should not include authors or affiliations in the PDF. Please also avoid any identifying information about the authors in the text of the abstract itself (e.g., "In our previous work, we found…").
+* Please be sure your abstract mentions the language(s) being investigated. Do not omit the language under investigation if it is English.
+
+
+
+[document of tips]: https://docs.google.com/document/d/1J_amu8bT3tIcPGh_zY_M8nLq3FSRK8KNa2pZKlc0rfs/
+[hsp-2025@umd.edu]: mailto:hsp-2025@umd.edu
+[Oxford Abstracts]: https://www.google.com

@@ -1,0 +1,21 @@
+---
+title: "Venue"
+title-block-banner: false
+---
+
+HSP 2025 will be held in the Adele H. Stamp Student Union building at the University of Maryland College Park.
+
+![](files/images/venue.png)
+
+* Address: 3972 Campus Dr, College Park, MD 20742
+* Talks will be held in the Grand Ballroom
+* Coffee Breaks will be served in the Grand Ballroom Lounge
+* Poster sessions will take place in the Grand Ballroom
+
+![](files/images/ballroom.png)
+
+* Free wifi access is available through Eduroam or the [UMD Guest Network]
+* ASL interpreters will provide simultaneous translation services for all talks
+* Other important locations are marked on the map below (insert map with accessible entrances/lactation rooms/bathrooms etc)
+
+[UMD Guest Network]: https://itsupport.umd.edu/itsupport?id=kb_article_view&sysparm_article=KB0012824

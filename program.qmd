@@ -1,0 +1,32 @@
+---
+title: "Schedule and Program"
+title-block-banner: false
+---
+
+
+The 38th Annual Conference on Human Sentence Processing will be held March 27-29, 2025 at the University of Maryland. HSP 2025 will be an in-person conference.
+
+## Invited Speakers
+We are delighted to welcome the following six invited speakers (in alphabetical order)
+
+* [Dr. Andrew Begel], Carnegie Mellon University
+* [Dr. Rain Bosworth], Rochester Institute of Technology
+* [Dr. Stefanie Kuchinsky], Walter Reed National Military Medical Center
+* [Dr. Philip Resnik], University of Maryland, College Park
+* [Dr. Charlotte Vaughn], University of Maryland, College Park
+
+## Detailed Schedule
+
+Coming soon! Subscribe to the HSP Listserv!
+
+## Program
+
+Coming soon! Subscribe to the HSP Listserv!
+
+
+
+[Dr. Andrew Begel]: https://s3d.cmu.edu/people/core-faculty/begel-andrew1.html
+[Dr. Rain Bosworth]: https://www.rit.edu/directory/rgbdls-rain-bosworth
+[Dr. Stefanie Kuchinsky]: https://nacs.umd.edu/facultyprofile/kuchinsky/stefanie
+[Dr. Philip Resnik]: https://www.cs.umd.edu/people/resnik
+[Dr. Charlotte Vaughn]: https://languagescience.umd.edu/users/cvaughn

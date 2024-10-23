@@ -1,0 +1,15 @@
+---
+title: "Presenter Information"
+description: "All you need to know for your poster and talk!"
+author: "HSP Committee"
+date: "2024-10-04"
+categories: [news]
+draft: true
+image: "presenter.jpg"
+---
+
+Coming soon!
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

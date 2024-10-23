@@ -1,0 +1,120 @@
+project:
+  type: website
+  output-dir: docs
+
+# Meta
+description-meta: "HSP2025 Website"
+author-meta: "HSP Committee"
+# margin-header: |
+#   ![](/files/logos/icon.png)
+
+website:
+  favicon: "/files/logos/icon.png"
+  title: "HSP2025"
+  image: "/files/logos/icon.png"
+  back-to-top-navigation: true
+  description: "38th Annual Conference on Human Sentence Processing"
+  announcement:
+    icon: info-circle # choose from here: https://icons.getbootstrap.com/
+    dismissable: true
+    content: "<b>🥳 Call for abstracts is now open!</b> Submit your abstracts for talks, posters, and <i>the interactive demo session</i> by December 2! <a href='http://hsp2025.github.io/posts/cfa/'><b>Click here</b></a> to see details and the link to the submission portal!"
+    type: info # primary, secondary, success, danger, warning, info, light, dark.
+    position: below-navbar
+  navbar:
+    pinned: true
+    # logo: "/files/logos/icon.png"
+    background: light
+
+    left:
+      - text: Special Session
+        href: posts/special-session/
+      - text: Call for abstracts
+        href: posts/cfa/
+      - text: Venue
+        href: posts/venue/
+      - text: Travel Support
+        href: posts/travel-support/
+      - text: Code of Conduct
+        href: posts/code/
+      - text: ~~*Registration*~~
+        href: posts/reg/
+      - text: ~~*Program*~~
+        href: posts/program/
+      - text: Information
+        menu:
+          - text: ~~*Presenter Information*~~
+            href: posts/info/
+          - text: Travel & Accommodation
+            href: posts/travel/
+          - text: Social Events
+            href: posts/social/
+          - text: Food & Drink
+            href: posts/food/
+    right:
+      # - text: CV
+      #   href: files/Gang-He-CV.pdf
+      #   target: _blank
+      - icon: discord
+        href: https://discord.gg/zbEeF6Dzkj
+      - icon: envelope
+        href: mailto:hsp-2025@umd.edu
+      #   target: _blank
+      # - icon: twitter-x
+      #   href: https://twitter.com/DrGangHe
+      #   target: _blank
+      - icon: rss
+        href: posts.xml
+        target: _blank
+
+  page-navigation: true
+
+  page-footer:
+    left: "[38th Annual Conference on Human Sentence Processing](http://hsp2025.github.io) &copy; <script>document.write(new Date().getFullYear())</script>"
+    right:
+      # - icon: github
+      #   href: https://github.com/drganghe/drganghe.github.io
+      #   target: _blank
+      - icon: rss
+        href: posts.xml
+        target: _blank
+
+  search:
+    location: navbar
+    type: textbox
+
+  # reader-mode: true
+
+  draft-mode: gone
+
+  repo-url: https://github.com/hsp2025/hsp2025.github.io
+#  repo-actions: [edit, issue, source]
+
+  # open-graph: true
+
+  # twitter-card: true
+#  card-style: summary
+
+  site-url: "https://hsp2025.github.io"
+
+  # google-analytics:
+  #   tracking-id: "G-G4DYZHP5J7"
+  #   anonymize-ip: true
+
+# bibliography: references.bib
+
+# exclude:
+#   - media.qmd
+
+format:
+  html:
+    theme: zephr
+    css: custom.css
+    toc: true
+    footnotes-hover: true
+    code-copy: true
+    code-link: true
+    fig-align: center
+    link-external-icon: false
+    link-external-newwindow: true
+    email-obfuscation: javascript
+    link-external-filter: '^(?:http:|https:)\/\/hsp2025\.github\.io\/custom'

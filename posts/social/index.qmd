@@ -1,0 +1,22 @@
+---
+title: "Social Events"
+description: "Check out these events to meet other psycholinguists!"
+author: "HSP Committee"
+date: "2024-09-04"
+template: "../../myhtml.template"
+categories: [news, social, party, reception, attending]
+# image: "planet.jpg"
+---
+
+![](planet.jpg){.preview-image}
+
+### Social Events
+
+**Conference Reception Party:** We will have a conference reception at the Planet Word Museum in Washington, DC.
+925 13th St NW, Washington, DC 20005
+
+Details are coming soon!
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

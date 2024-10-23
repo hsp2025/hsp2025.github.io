@@ -1,0 +1,27 @@
+---
+title: "Special Session 'Demo' Period"
+description: "We encourage abstracts that highlight creative outreach initiatives, interactive demonstrations, and alternative ways of presenting research aligned with the theme of community engagement."
+author: "HSP Committee"
+date: "2024-10-09"
+categories: [frontpage, demo, cfa]
+# image: "bridge.jpeg"
+---
+![](MarylandDay_child.jpg){.preview-image}
+
+We are excited to introduce a new feature at the Annual Conference on Human Sentence Processing (HSP), as part of our NSF-funded special session, ''**Connecting Minds, Building Bridges: Community Outreach in Language Processing Research**.'' For the first time, we will host a ''Demo''' period, providing space for hands-on outreach demonstrations that go beyond traditional posters or talks. This is an opportunity to showcase work that can only be fully appreciated through direct experience—such as sounds, multimedia presentations, interactive activities for children, and more.
+
+While the session will focus on live demonstrations, abstracts are required to evaluate and understand the content of these presentations. These abstracts should serve as descriptions of your planned activities and may differ in structure from those typically submitted for traditional poster sessions. We invite abstracts that showcase community-engagement activities in psycholinguistics. These demos should highlight outreach projects that researchers are involved in, featuring the stakeholders you work with—whether they be schools, community organizations, or broader public groups. Presenting real-world examples of successful outreach will illustrate how psycholinguistic research can directly benefit communities and foster meaningful collaboration.
+
+In addition to showcasing ongoing efforts, we also encourage abstracts that propose new community engagement initiatives. These proposals can outline your planned activities, highlighting how you aim to involve key stakeholders and promote greater interaction between the scientific community and the public.
+
+We encourage abstracts that highlight creative outreach initiatives, interactive demonstrations, and alternative ways of presenting research aligned with the theme of community engagement. Abstracts should include a brief description of the demo, its objectives, and how it connects to the special session theme.
+
+Although we are primarily encouraging demos that highlight creative outreach initiatives and community engagement activities, we also welcome submissions that present innovative experimental methods or approaches. If you have a demonstration that is best understood through direct experience, such as a new experimental technique, this demo period could be an excellent opportunity to share it with the community.
+
+Presenters of the demos will have approximately 1 hour and 20 minutes for their presentations, which may overlap with a poster session to maximize audience engagement.
+
+Since this is a new feature, please include any logistical needs (e.g., table, electricity, poster board, etc.) to ensure the space is prepared for your demonstration. All demo abstracts should adhere to the same formatting requirements as traditional abstracts for talks and posters.
+
+This demo period provides a unique opportunity for researchers to showcase how their work connects with broader societal needs. By sharing innovative and interactive outreach efforts, participants can highlight the practical, real-world relevance of psycholinguistic research. These demonstrations will help other researchers recognize the potential for their own work to reach and engage the public, fostering stronger connections between the scientific community and the communities we aim to serve.
+
+We look forward to your submissions and the exciting potential these demos have to inspire and engage.

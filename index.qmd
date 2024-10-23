@@ -1,0 +1,122 @@
+---
+title: ""
+image: files/logos/sideimage.png #! Todo: wait for the university decision
+page-navigation: false
+toc: false
+#sidebar: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 100%
+
+listing:
+  - id: recent-posts
+    contents:
+      - posts
+      - posts/post-links.yml
+    include:
+      categories: [frontpage]
+    type: grid
+    max-items: 10
+    page-size: 0 #set as 0 will remove the page setting
+    fields: [image, date, title, author, description]
+    max-description-length: 75
+    sort:
+      - "date desc"
+      - "title asc"
+---
+
+<font size="6"><center>**38th Annual Conference on Human Sentence Processing**</center></font>
+<font size="5"><center>**March 27-29, 2025**</center></font>
+<font size="4"><center>**hosted in-person by the University of Maryland, College Park**</center></font><br>
+<font size="4"><center>*with Special Session entitled Connecting Minds, Building Bridges: Community Outreach in Language Processing Research*</center></font>
+
+:::{#hero-heading}
+## Invited Speakers
+We are delighted to welcome the following five invited speakers <br> (in alphabetical order)
+
+* [Dr. Andrew Begel], Carnegie Mellon University
+* [Dr. Rain Bosworth], Rochester Institute of Technology
+* [Dr. Stefanie Kuchinsky], Walter Reed National Military Medical Center
+* [Dr. Philip Resnik], University of Maryland, College Park
+* [Dr. Charlotte Vaughn], University of Maryland, College Park
+
+:::
+
+
+<br>
+<!-- ![](files/logos/banner.png){fig-alt="NSF logo" width="100%"} -->
+<br>
+
+<!-- Check out our latest &nbsp;[Posts & News](posts.qmd)&nbsp; -->
+
+:::{#recent-posts}
+:::
+
+<p align="right">[More information on the conference »](/posts.qmd)</p>
+
+
+
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+## Organizing Committee
+
+* [Dr. Deanna Gagne], Gallaudet University
+* [Dr. Yi Ting Huang], University of Maryland, College Park
+* [Dr. Rochelle Newman], University of Maryland, College Park
+* [Dr. Jared Novick], University of Maryland, College Park
+* [Dr. Patrick Plummer], Howard University
+* [Dr. L. Robert Slevc], University of Maryland, College Park
+
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+
+## Contact
+Questions? Contact the organizers at [hsp-2025@umd.edu](mailto:hsp-2025@umd.edu) or join our [Discord server](https://discord.gg/zbEeF6Dzkj).
+
+Check [HSP Society](https://www.hspsociety.org) for more information
+
+Subscribe to the HSP Listserv [here](https://listserv.uconn.edu/scripts/wa.exe?SUBED1=HSP-L&A=1)
+
+
+:::
+
+::::
+
+
+## Sponsors
+<center>
+
+![](files/images/sponsors/NSF_logo.jpg){fig-alt="NSF logo" width="20%"}
+![](files/images/sponsors/UMD_BSOS.png){fig-alt="UMD BSOS" width="20%"}
+
+<!-- ![](files/images/sponsors/finding-five-logo-small-87ad8077.png){fig-alt="Finding Five logo" width="20%"}  ![](files/images/sponsors/cropped-sr-research-logo-square-192x192.png){fig-alt="SR Research Eyelink logo" width="18%"} -->
+
+</center>
+
+
+
+
+
+[Dr. Deanna Gagne]: https://gallaudet.edu/personnel/deanna-gagne/
+[Dr. Yi Ting Huang]: https://hesp.umd.edu/facultyprofile/huang/yi-ting
+[Dr. Rochelle Newman]: https://hesp.umd.edu/facultyprofile/newman/rochelle
+[Dr. Jared Novick]: https://hesp.umd.edu/facultyprofile/novick/jared
+[Dr. Patrick Plummer]: https://profiles.howard.edu/patrick-plummer
+[Dr. L. Robert Slevc]: https://psyc.umd.edu/facultyprofile/slevc/l-robert
+
+[Dr. Andrew Begel]: https://s3d.cmu.edu/people/core-faculty/begel-andrew1.html
+[Dr. Rain Bosworth]: https://www.rit.edu/directory/rgbdls-rain-bosworth
+[Dr. Stefanie Kuchinsky]: https://nacs.umd.edu/facultyprofile/kuchinsky/stefanie
+[Dr. Philip Resnik]: https://www.cs.umd.edu/people/resnik
+[Dr. Charlotte Vaughn]: https://languagescience.umd.edu/users/cvaughn

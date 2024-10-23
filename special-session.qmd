@@ -1,0 +1,11 @@
+---
+title: "Special Session: Connecting Minds, Building Bridges: Community Outreach in Language Processing Research"
+title-block-banner: false
+---
+
+This year’s special session focuses on enhancing psycholinguists’ ability to appreciate the link between their scientific interests and the needs of the wider community.
+
+* How does our work benefit society?
+* How does collaborating with community partners enable research that is informed by societal needs and yield impact outside the academy?
+* How can we collaborate with community organizations such as schools, healthcare practices, museums, advocacy groups, and policy makers?
+* How can we overcome barriers and challenges associated with this research model, such as establishing public partnerships, aligning research goals with societal interests, and improving public communication?
