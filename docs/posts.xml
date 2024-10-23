@@ -41,7 +41,7 @@
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>frontpage</category>
   <category>demo</category>
-  <category>cfp</category>
+  <category>cfa</category>
   <guid>https://hsp2025.github.io/posts/demo/</guid>
   <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
 </item>
@@ -207,8 +207,8 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>frontpage</category>
-  <category>call for papers</category>
-  <category>cfp</category>
+  <category>call for abstracts</category>
+  <category>cfa</category>
   <guid>https://hsp2025.github.io/posts/cfa/</guid>
   <pubDate>Wed, 09 Oct 2024 04:00:00 GMT</pubDate>
   <media:content url="https://hsp2025.github.io/posts/cfa/oa.png" medium="image" type="image/png" height="67" width="144"/>
