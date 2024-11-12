@@ -273,22 +273,6 @@ https://quarto.org/docs/authoring/includes.html
 
 
 <p><img src="https://hsp2025.github.io/posts/venue/stamp.jpg" class="preview-image img-fluid"></p>
-<section id="stay" class="level2">
-<h2 class="anchored" data-anchor-id="stay">Stay</h2>
-<p>We were able to block off some rooms at the The Hotel, College Park. There are also other hotels in the area that you can book. See more details below.</p>
-<section id="room-block" class="level3">
-<h3 class="anchored" data-anchor-id="room-block">Room Block</h3>
-<p><strong><a href="https://maps.app.goo.gl/FT7Mw3VayDv4FGSi9">The Hotel at UMD, College Park</a></strong><br> <strong>Address:</strong> 7777 Baltimore Ave, College Park, MD 20740<br> <strong>Phone:</strong> (301) 277-7777<br> <strong>Rate:</strong> $169/night<br> <strong><a href="https://reservations.travelclick.com/107316?groupID=4536917">Click here to use special booking link</a></strong> <br> <em>Available for booking through Wednesday, March 5, 2025</em><br></p>
-</section>
-<section id="other-hotels-near-umd" class="level3">
-<h3 class="anchored" data-anchor-id="other-hotels-near-umd">Other Hotels Near UMD</h3>
-<p><strong><a href="https://maps.app.goo.gl/2qtUpY9XbgeHfeS7A">Cambria Hotel College Park</a></strong><br> 8321 Baltimore Ave, College Park, MD 20740 • (301) 615-9889<br> <strong><a href="https://www.choicehotels.com/maryland/college-park/cambria-hotels/md301?mc=llgoxxpx">Website</a></strong></p>
-<p><strong><a href="https://maps.app.goo.gl/PQNqkeKL8yWeqfEJ9">Best Western Plus College Park Hotel</a></strong><br> 8419 Baltimore Ave, College Park, MD 20740 • (301) 220-0505<br> <strong><a href="https://www.choicehotels.com/maryland/college-park/cambria-hotels/md301?mc=llgoxxpx">Website</a></strong></p>
-<p><strong><a href="https://maps.app.goo.gl/9jJrPHeT2jhpYomj7">Holiday Inn Express &amp; Suites College Park</a></strong><br> 9020 Baltimore Ave, College Park, MD 20740 • (301) 441-8110<br> <strong><a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/college-park/wasua/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-WASUA">Website</a></strong></p>
-</section>
-</section>
-<section id="venue" class="level2">
-<h2 class="anchored" data-anchor-id="venue">Venue</h2>
 <p>The University of Maryland is located just a few miles from Washington, DC, offering easy access to the nation’s capital via Metro or a short drive. This convenient location makes UMD an accessible and exciting destination for attendees, with opportunities to explore both our campus and the vibrant city nearby. See below for more information on the venue and how to get here. See more details on how to get to UMD on our <a href="../travel">travel page</a>.</p>
 <p>HSP 2025 will be held in the Adele H. Stamp Student Union building at the University of Maryland College Park.</p>
 <p><img src="https://hsp2025.github.io/posts/venue/venue.png" class="img-fluid"></p>
@@ -304,6 +288,18 @@ https://quarto.org/docs/authoring/includes.html
 <li>ASL interpreters will provide simultaneous translation services for all talks</li>
 <li>Other important locations are marked on the map below (insert map with accessible entrances/lactation rooms/bathrooms etc)</li>
 </ul>
+<section id="where-to-stay" class="level2">
+<h2 class="anchored" data-anchor-id="where-to-stay">Where to Stay</h2>
+<p>We were able to block off some rooms at the The Hotel, College Park. There are also other hotels in the area that you can book. See more details below.</p>
+<section id="room-block" class="level3">
+<h3 class="anchored" data-anchor-id="room-block">Room Block</h3>
+<p><strong><a href="https://maps.app.goo.gl/FT7Mw3VayDv4FGSi9">The Hotel at UMD, College Park</a></strong><br> <strong>Address:</strong> 7777 Baltimore Ave, College Park, MD 20740<br> <strong>Phone:</strong> (301) 277-7777<br> <strong>Rate:</strong> $169/night<br> <strong><a href="https://reservations.travelclick.com/107316?groupID=4536917">Click here to use special booking link</a></strong> <br> <em>Available for booking through Wednesday, March 5, 2025</em><br></p>
+</section>
+<section id="other-hotels-near-umd" class="level3">
+<h3 class="anchored" data-anchor-id="other-hotels-near-umd">Other Hotels Near UMD</h3>
+<p><strong><a href="https://maps.app.goo.gl/2qtUpY9XbgeHfeS7A">Cambria Hotel College Park</a></strong><br> 8321 Baltimore Ave, College Park, MD 20740 • (301) 615-9889<br> <strong><a href="https://www.choicehotels.com/maryland/college-park/cambria-hotels/md301?mc=llgoxxpx">Website</a></strong></p>
+<p><strong><a href="https://maps.app.goo.gl/PQNqkeKL8yWeqfEJ9">Best Western Plus College Park Hotel</a></strong><br> 8419 Baltimore Ave, College Park, MD 20740 • (301) 220-0505<br> <strong><a href="https://www.choicehotels.com/maryland/college-park/cambria-hotels/md301?mc=llgoxxpx">Website</a></strong></p>
+<p><strong><a href="https://maps.app.goo.gl/9jJrPHeT2jhpYomj7">Holiday Inn Express &amp; Suites College Park</a></strong><br> 9020 Baltimore Ave, College Park, MD 20740 • (301) 441-8110<br> <strong><a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/college-park/wasua/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-WASUA">Website</a></strong></p>
 <!--Include social share buttons-->
 <!--
 AddToAny check more: https://www.addtoany.com/buttons/for/website
@@ -317,6 +313,7 @@ https://quarto.org/docs/authoring/includes.html
 <script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
+</section>
 </section>
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>frontpage</category>
