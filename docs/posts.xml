@@ -170,7 +170,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 <section id="abstract-submission-information" class="level2">
 <h2 class="anchored" data-anchor-id="abstract-submission-information">Abstract Submission Information</h2>
 <p>We welcome your contributions to the special session. And, as always, we invite abstracts related to language processing more generally. Abstracts may be submitted for the interactive demo session, posters, or for 20-minute podium presentations.</p>
-<p>Abstracts are due on <strong>Monday, December 2, 2024 by 11:59:59pm</strong> (anywhere on earth).</p>
+<p>Abstracts are due on <strong>Monday, <del>December 2</del> December 9, 2024 by 11:59:59pm</strong> (anywhere on earth).</p>
 <!-- Abstracts are due on XXXX (anywhere on earth). -->
 <p>Dr.&nbsp;Maayan Keshev has put together a <a href="https://docs.google.com/document/d/1J_amu8bT3tIcPGh_zY_M8nLq3FSRK8KNa2pZKlc0rfs/">document of tips</a> for how to write a HSP abstract.</p>
 <p>For more information, please contact <script type="text/javascript">
