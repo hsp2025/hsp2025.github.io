@@ -214,6 +214,47 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://hsp2025.github.io/posts/cfp/oa.png" medium="image" type="image/png" height="67" width="144"/>
 </item>
 <item>
+  <title>Presenter Information</title>
+  <dc:creator>HSP Committee</dc:creator>
+  <link>https://hsp2025.github.io/posts/info/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="presenter-information" class="level2">
+<h2 class="anchored" data-anchor-id="presenter-information">Presenter Information</h2>
+<p>Updates for presenters will be posted here as conference arrangements are finalized.</p>
+<section id="plenary-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="plenary-presentations">Plenary Presentations</h3>
+<p>Plenary presenters will have 20 minutes for their presentation, followed by 10 minutes for questions. All plenary sessions will be recorded. Presenters will receive an email with instructions to share a draft of their presentation materials by mid-March to facilitate live interpretation services.</p>
+</section>
+<section id="poster-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="poster-presentations">Poster Presentations</h3>
+<p><strong>Poster Guidelines:</strong> - Poster boards will accommodate landscape (wide) format posters with maximum dimensions of 4x3 feet (48x36 inches, 1.2 x 0.9 meters).</p>
+<!--Include social share buttons-->
+<!--
+AddToAny check more: https://www.addtoany.com/buttons/for/website
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<i>Share this post:</i>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_x"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_mastodon"></a> <a class="a2a_button_whatsapp"></a> <a class="a2a_button_wechat"></a> <a class="a2a_button_sina_weibo"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>news</category>
+  <guid>https://hsp2025.github.io/posts/info/</guid>
+  <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://hsp2025.github.io/posts/info/presenter.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Travel Support</title>
   <dc:creator>HSP Committee</dc:creator>
   <link>https://hsp2025.github.io/posts/travel-support/</link>
