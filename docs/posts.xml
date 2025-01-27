@@ -159,6 +159,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
   <description><![CDATA[ 
 
 
+<p><strong>Abstract submission is closed.</strong></p>
 <p>We invite submissions for the Annual Conference on Human Sentence Processing. In addition to soliciting abstracts for traditional podium talks and posters, we are excited to announce a new opportunity for researchers to participate in our interactive demo period.</p>
 <p>This demo period aims to foster community engagement by showcasing innovative outreach activities and experimental methods that benefit from hands-on experience. Researchers are encouraged to submit abstracts that highlight creative initiatives, interactive demonstrations, and alternative presentations aligned with our conference theme. View detailed abstract submission instructions for our special session <a href="../demo/index.html">‘’Demo period’’</a>.</p>
 <p>For detailed instructions on how to submit your abstracts for both traditional presentations and the new demo period, please refer to the submission guidelines.</p>
@@ -206,7 +207,6 @@ https://quarto.org/docs/authoring/includes.html
 
 </section>
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>frontpage</category>
   <category>call for abstracts</category>
   <category>cfp</category>
   <guid>https://hsp2025.github.io/posts/cfp/</guid>
@@ -249,7 +249,7 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>news</category>
+  <category>frontpage</category>
   <guid>https://hsp2025.github.io/posts/info/</guid>
   <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
   <media:content url="https://hsp2025.github.io/posts/info/presenter.jpg" medium="image" type="image/jpeg"/>

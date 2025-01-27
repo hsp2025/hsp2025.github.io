@@ -17,8 +17,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/cfp/index.html",
       "/posts/demo/index.html",
+      "/posts/info/index.html",
       "/posts/venue/index.html"
     ]
   }
