@@ -220,8 +220,6 @@ https://quarto.org/docs/authoring/includes.html
   <description><![CDATA[ 
 
 
-
-
 <section id="presenter-information" class="level2">
 <h2 class="anchored" data-anchor-id="presenter-information">Presenter Information</h2>
 <p>Updates for presenters will be posted here as conference arrangements are finalized.</p>
@@ -247,7 +245,6 @@ https://quarto.org/docs/authoring/includes.html
 
 </section>
 </section>
-
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>frontpage</category>
   <guid>https://hsp2025.github.io/posts/info/</guid>
