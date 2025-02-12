@@ -39,7 +39,6 @@
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>frontpage</category>
   <category>demo</category>
   <category>cfp</category>
   <guid>https://hsp2025.github.io/posts/demo/</guid>
@@ -264,7 +263,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
 <p><img src="https://hsp2025.github.io/posts/travel-support/hall.jpeg" class="preview-image img-fluid"></p>
-<p>Applications for travel support are coming soon. Stay tuned for more information on how to apply for travel support to attend the conference by subscribing to <a href="https://listserv.uconn.edu/scripts/wa.exe?SUBED1=HSP-L&amp;A=1">HSP Listserv</a> or joining our <a href="https://discord.gg/zbEeF6Dzkj">Discord server</a>.</p>
+<p>We are also accepting applications for $375 travel awards to support participation in HSP2025. Applications can be submitted <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4JDI1XLQUMYtDw_cnpRtNENo5ifCLSj7uYuYhvJCueQy5QA/viewform">here</a>. Awards will be granted on a rolling basis throughout February and March as long as funding remains available.</p>
 <section id="equity-and-access-support" class="level2">
 <h2 class="anchored" data-anchor-id="equity-and-access-support">Equity and Access Support</h2>
 <section id="registration-supplement" class="level4">
@@ -365,6 +364,60 @@ https://quarto.org/docs/authoring/includes.html
   <category>attending</category>
   <guid>https://hsp2025.github.io/posts/venue/</guid>
   <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Registration</title>
+  <dc:creator>HSP Committee</dc:creator>
+  <link>https://hsp2025.github.io/posts/registration/</link>
+  <description><![CDATA[ 
+
+
+<p>We are pleased to announce that registration for HSP 2025 at the University of Maryland, College Park (March 27–29, 2025) is now open.</p>
+<p>You can register for the conference at <a href="https://umdsurvey.umd.edu/jfe/form/SV_8dLq8zA3QnLNpFs">this link</a>.</p>
+<section id="registration-details" class="level2">
+<h2 class="anchored" data-anchor-id="registration-details">Registration Details</h2>
+<p>The conference registration fees are as follows:</p>
+<ul>
+<li><strong>Student:</strong> $145 (<em>after February 27: $170</em>)</li>
+<li><strong>Non-student:</strong> $245 (<em>after February 27: $295</em>)</li>
+<li><strong>Corporate: $420</strong> (<em>after February 27: $470</em>)</li>
+</ul>
+</section>
+<section id="student-travel-support" class="level2">
+<h2 class="anchored" data-anchor-id="student-travel-support">Student Travel Support</h2>
+<p>We are also accepting applications for $375 travel awards to support participation in HSP2025. Applications can be submitted <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4JDI1XLQUMYtDw_cnpRtNENo5ifCLSj7uYuYhvJCueQy5QA/viewform">here</a>. Awards will be granted on a rolling basis throughout February and March as long as funding remains available.</p>
+<p>For additional updates, please visit our <a href="https://hsp2025.github.io/posts/travel-support/">Travel Support Page</a>.</p>
+<p>We look forward to seeing you in March!</p>
+</section>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>Questions? Contact the HSP Committee at <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#100;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#104;&#x73;&#112;&#x2d;&#50;&#48;&#50;&#x35;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>hsp-2025 at umd dot edu</noscript> or join our <a href="https://discord.gg/zbEeF6Dzkj">Discord server</a>.</p>
+<!--Include social share buttons-->
+<!--
+AddToAny check more: https://www.addtoany.com/buttons/for/website
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<i>Share this post:</i>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_x"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_mastodon"></a> <a class="a2a_button_whatsapp"></a> <a class="a2a_button_wechat"></a> <a class="a2a_button_sina_weibo"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+</section>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>news</category>
+  <category>register</category>
+  <category>frontpage</category>
+  <guid>https://hsp2025.github.io/posts/registration/</guid>
+  <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://hsp2025.github.io/posts/registration/reg.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Social Events</title>
