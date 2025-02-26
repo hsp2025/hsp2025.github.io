@@ -224,7 +224,517 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="cell">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># create_schedule_table(thursday_file)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df</span> <span class="op">&lt;-</span> <span class="fu">read_csv</span><span class="op">(</span><span class="st">"th.csv"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 19 Columns: 3
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (1): Thursday
+lgl  (1): Keywords
+time (1): Time
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Add Abstract column with links if a number before ":" exists</span></span>
+<span><span class="va">df</span> <span class="op">&lt;-</span> <span class="va">df</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">mutate</span><span class="op">(</span></span>
+<span>    Abstract <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/ifelse.html">ifelse</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/grep.html">grepl</a></span><span class="op">(</span><span class="st">"^[0-9]+:"</span>, <span class="va">df</span><span class="op">$</span><span class="va">Thursday</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste0</a></span><span class="op">(</span><span class="st">"&lt;a href='"</span>, <span class="fu"><a href="https://rdrr.io/r/base/grep.html">sub</a></span><span class="op">(</span><span class="st">":.*"</span>, <span class="st">""</span>, <span class="va">df</span><span class="op">$</span><span class="va">Thursday</span><span class="op">)</span>, <span class="st">".pdf'&gt;[abstract]&lt;/a&gt;"</span><span class="op">)</span>, <span class="st">""</span><span class="op">)</span>,</span>
+<span>    Thursday <span class="op">=</span> <span class="fu">str_remove</span><span class="op">(</span><span class="va">Thursday</span>, <span class="st">"^[0-9]+: "</span><span class="op">)</span></span>
+<span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">gt</span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">opt_row_striping</span><span class="op">(</span><span class="cn">TRUE</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">cols_align</span><span class="op">(</span>align <span class="op">=</span> <span class="st">"left"</span>, columns <span class="op">=</span> <span class="fu">everything</span><span class="op">(</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">cols_merge</span><span class="op">(</span></span>
+<span>    columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">Thursday</span>, <span class="va">Abstract</span><span class="op">)</span>,</span>
+<span>    pattern <span class="op">=</span> <span class="st">"{1} &lt;br&gt; {2}"</span></span>
+<span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">sub_missing</span><span class="op">(</span></span>
+<span>    columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">Time</span>, <span class="va">Thursday</span>, <span class="va">Keywords</span><span class="op">)</span>,</span>
+<span>    rows <span class="op">=</span> <span class="fu">everything</span><span class="op">(</span><span class="op">)</span>,</span>
+<span>    missing_text <span class="op">=</span> <span class="st">""</span></span>
+<span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">opt_interactive</span><span class="op">(</span></span>
+<span>    use_filters <span class="op">=</span> <span class="cn">TRUE</span>,</span>
+<span>    use_search <span class="op">=</span> <span class="cn">TRUE</span>,</span>
+<span>    use_pagination <span class="op">=</span> <span class="cn">FALSE</span></span>
+<span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">cols_width</span><span class="op">(</span><span class="va">Time</span> <span class="op">~</span> <span class="fu">px</span><span class="op">(</span><span class="fl">100</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">tab_style</span><span class="op">(</span></span>
+<span>    style <span class="op">=</span> <span class="fu">cell_fill</span><span class="op">(</span>color <span class="op">=</span> <span class="st">"#99cfd1"</span><span class="op">)</span>,</span>
+<span>    locations <span class="op">=</span> <span class="fu">cells_body</span><span class="op">(</span></span>
+<span>      rows <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">8</span>, <span class="fl">14</span><span class="op">)</span></span>
+<span>    <span class="op">)</span></span>
+<span>  <span class="op">)</span></span>
+<span><span class="co">#|&gt;</span></span>
+<span><span class="co"># tab_style(</span></span>
+<span><span class="co">#   style = cell_fill(color = "#d2eeea"),</span></span>
+<span><span class="co">#   locations = cells_body(</span></span>
+<span><span class="co">#     rows = c(6, 10, 14)</span></span>
+<span><span class="co">#   )</span></span>
+<span><span class="co"># ) |&gt;</span></span>
+<span><span class="co"># tab_style(</span></span>
+<span><span class="co">#   style = cell_fill(color = "#7FE0DB"),</span></span>
+<span><span class="co">#   locations = cells_body(</span></span>
+<span><span class="co">#     rows = c(11, 19)</span></span>
+<span><span class="co">#   )</span></span>
+<span><span class="co"># )</span></span>
+<span></span>
+<span><span class="va">df</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div id="gxbgucqvjn" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#gxbgucqvjn table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#gxbgucqvjn thead, #gxbgucqvjn tbody, #gxbgucqvjn tfoot, #gxbgucqvjn tr, #gxbgucqvjn td, #gxbgucqvjn th {
+  border-style: none;
+}
+
+#gxbgucqvjn p {
+  margin: 0;
+  padding: 0;
+}
+
+#gxbgucqvjn .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#gxbgucqvjn .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#gxbgucqvjn .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#gxbgucqvjn .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#gxbgucqvjn .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#gxbgucqvjn .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#gxbgucqvjn .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#gxbgucqvjn .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#gxbgucqvjn .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#gxbgucqvjn .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#gxbgucqvjn .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#gxbgucqvjn .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#gxbgucqvjn .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#gxbgucqvjn .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#gxbgucqvjn .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gxbgucqvjn .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#gxbgucqvjn .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#gxbgucqvjn .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#gxbgucqvjn .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gxbgucqvjn .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#gxbgucqvjn .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gxbgucqvjn .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#gxbgucqvjn .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gxbgucqvjn .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gxbgucqvjn .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gxbgucqvjn .gt_left {
+  text-align: left;
+}
+
+#gxbgucqvjn .gt_center {
+  text-align: center;
+}
+
+#gxbgucqvjn .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#gxbgucqvjn .gt_font_normal {
+  font-weight: normal;
+}
+
+#gxbgucqvjn .gt_font_bold {
+  font-weight: bold;
+}
+
+#gxbgucqvjn .gt_font_italic {
+  font-style: italic;
+}
+
+#gxbgucqvjn .gt_super {
+  font-size: 65%;
+}
+
+#gxbgucqvjn .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#gxbgucqvjn .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#gxbgucqvjn .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#gxbgucqvjn .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#gxbgucqvjn .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#gxbgucqvjn .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#gxbgucqvjn .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#gxbgucqvjn .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#gxbgucqvjn div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+<div id="gxbgucqvjn" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="gxbgucqvjn">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Time":["08:00:00","08:30:00","09:00:00","09:30:00","10:00:00","10:30:00","11:00:00","11:30:00","12:15:00","13:30:00","14:00:00","14:30:00","15:00:00","15:30:00","16:15:00","16:45:00","17:15:00","17:50:00","19:00:00"],"Thursday":["Breakfast/Registration/Announcements","Title","Title","Title","Coffee break","Title","Title","Invited 1: Stefanie Kuchinsky","Lunch on your own","Title","Title","Title","Coffee break","Invited 2: Andy Begel","Title","Title","Mentoring","Poster session 1",null],"Keywords":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"Time","name":"Time","type":["hms","difftime"],"na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'Time' & rowIndex === 8) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Time' & rowIndex === 14) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Thursday' & rowIndex === 8) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Thursday' & rowIndex === 14) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Keywords' & rowIndex === 8) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Keywords' & rowIndex === 14) {\n  return { backgroundColor: '#99CFD1' }\n}\n\n}","cell":["08:00:00","08:30:00","09:00:00","09:30:00","10:00:00","10:30:00","11:00:00","11:30:00","12:15:00","13:30:00","14:00:00","14:30:00","15:00:00","15:30:00","16:15:00","16:45:00","17:15:00","17:50:00","19:00:00"],"html":true,"width":100,"align":"left"},{"id":"Thursday","name":"Thursday","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'Time' & rowIndex === 8) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Time' & rowIndex === 14) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Thursday' & rowIndex === 8) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Thursday' & rowIndex === 14) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Keywords' & rowIndex === 8) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Keywords' & rowIndex === 14) {\n  return { backgroundColor: '#99CFD1' }\n}\n\n}","cell":["Breakfast/Registration/Announcements <br> ","Title <br> &lt;a href='10.pdf'&gt;[abstract]&lt;/a&gt;","Title <br> &lt;a href='76.pdf'&gt;[abstract]&lt;/a&gt;","Title <br> &lt;a href='90.pdf'&gt;[abstract]&lt;/a&gt;","Coffee break <br> ","Title <br> &lt;a href='26.pdf'&gt;[abstract]&lt;/a&gt;","Title <br> &lt;a href='223.pdf'&gt;[abstract]&lt;/a&gt;","Invited 1: Stefanie Kuchinsky <br> ","Lunch on your own <br> ","Title <br> &lt;a href='29.pdf'&gt;[abstract]&lt;/a&gt;","Title <br> &lt;a href='189.pdf'&gt;[abstract]&lt;/a&gt;","Title <br> &lt;a href='210.pdf'&gt;[abstract]&lt;/a&gt;","Coffee break <br> ","Invited 2: Andy Begel <br> ","Title <br> &lt;a href='105.pdf'&gt;[abstract]&lt;/a&gt;","Title <br> &lt;a href='231.pdf'&gt;[abstract]&lt;/a&gt;","Mentoring <br> ","Poster session 1 <br> ","<br /> <br> "],"html":true,"align":"left"},{"id":"Keywords","name":"Keywords","type":"logical","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'Time' & rowIndex === 8) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Time' & rowIndex === 14) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Thursday' & rowIndex === 8) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Thursday' & rowIndex === 14) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Keywords' & rowIndex === 8) {\n  return { backgroundColor: '#99CFD1' }\n}\n\nif (colInfo.id === 'Keywords' & rowIndex === 14) {\n  return { backgroundColor: '#99CFD1' }\n}\n\n}","cell":["<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />","<br />"],"html":true,"align":"left"}],"filterable":true,"searchable":true,"pagination":false,"defaultPageSize":10,"showPageSizeOptions":false,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":false,"showPageInfo":true,"minRows":1,"striped":true,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"font-family":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif","fontSize":"16px"},"tableStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3"},"headerStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"groupHeaderStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"cellStyle":{"fontWeight":"normal"}},"elementId":"gxbgucqvjn","dataKey":"45ec5183f32a509b85d37b83b87f261f"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style","tag.attribs.columns.2.style"],"jsHooks":[]}</script>
+</div>
+</div>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
