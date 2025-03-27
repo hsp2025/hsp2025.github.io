@@ -4,7 +4,6 @@
     "items": [
       "/posts/demosession/index.html",
       "/posts/postersession1/index.html",
-      "/posts/program/index.html",
       "/posts/postersession4/index.html",
       "/posts/postersession3/index.html",
       "/posts/postersession2/index.html",
@@ -18,15 +17,16 @@
       "/posts/venue/index.html",
       "/posts/social/index.html",
       "/posts/food/index.html",
-      "/posts/travel/index.html"
+      "/posts/travel/index.html",
+      "/posts/program/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/registration/index.html",
       "/posts/info/index.html",
-      "/posts/venue/index.html"
+      "/posts/venue/index.html",
+      "/posts/program/index.html"
     ]
   }
 ]
